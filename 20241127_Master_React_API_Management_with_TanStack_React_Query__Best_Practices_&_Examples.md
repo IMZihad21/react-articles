@@ -56,7 +56,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
 
 ### Fetching Data with `useQuery`
 
-The `useQuery` hook provides a straightforward way to fetch and cache data. Here’s an example of fetching a list of items:
+The `useQuery` hook provides a straightforward way to fetch and cache data. Hereâ€™s an example of fetching a list of items:
 
 ```typescript
 import { useQuery } from "@tanstack/react-query";
@@ -81,7 +81,7 @@ export default ItemsList;
 
 ### Mutating Data with `useApiMutation`
 
-Mutations handle data modifications such as creating, updating, or deleting resources. Here’s how you can implement a reusable mutation hook.
+Mutations handle data modifications such as creating, updating, or deleting resources. Hereâ€™s how you can implement a reusable mutation hook.
 
 ```typescript
 import { useMutation, UseMutationResult } from "@tanstack/react-query";
